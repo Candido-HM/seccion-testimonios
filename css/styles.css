@@ -40,8 +40,7 @@ main .contenedor .testimony-1 {
   background-color: #733FC8;
   box-shadow: 1px 1px 2px #8464C5, 0px 0px 0px 1px #6E40BC inset;
   padding: 2.5%;
-  /*display: flex;
-  flex-direction: column;*/
+  overflow: hidden;
 }
 main .contenedor .testimony-1 .titulos-1 {
   display: flex;
@@ -93,6 +92,7 @@ main .contenedor .testimony-2 {
   background-color: #49556B;
   box-shadow: 1px 1px 1px 2px #CAD4E0, 0px 0px 0px 1px #4D596F inset;
   padding: 5%;
+  overflow: hidden;
 }
 main .contenedor .testimony-2 .titulos-2 {
   display: flex;
@@ -144,6 +144,7 @@ main .contenedor .testimony-3 {
   background-color: #FFFFFF;
   box-shadow: 1px 1px 12px 8px #DCE4E7;
   padding: 5%;
+  overflow: hidden;
 }
 main .contenedor .testimony-3 .titulos-3 {
   display: flex;
@@ -195,6 +196,7 @@ main .contenedor .testimony-4 {
   background-color: #18202D;
   box-shadow: 1px 1px 5px 1px #8C9399, 0px 0px 0px 1px #30373D inset;
   padding: 2.5%;
+  overflow: hidden;
 }
 main .contenedor .testimony-4 .titulos-4 {
   display: flex;
@@ -246,6 +248,7 @@ main .contenedor .testimony-5 {
   background-color: #FFFFFF;
   box-shadow: 1px 1px 15px 8px #DCE4E7;
   padding: 6.6666666667%;
+  overflow: hidden;
 }
 main .contenedor .testimony-5 .titulos-5 {
   display: flex;

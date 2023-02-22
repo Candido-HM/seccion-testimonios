@@ -59,8 +59,7 @@ main {
             box-shadow: 1px 1px 2px #8464C5,
                         0px 0px 0px 1px #6E40BC inset;
             padding: calc(100% / 40);
-            /*display: flex;
-            flex-direction: column;*/
+            overflow: hidden;
 
                 .titulos-1{
                     display: flex;
@@ -121,6 +120,7 @@ main {
             box-shadow: 1px 1px 1px 2px #CAD4E0,
                         0px 0px 0px 1px #4D596F inset;
             padding: calc(100% / 20);
+            overflow: hidden;
 
             .titulos-2 {
                 display: flex;
@@ -180,6 +180,7 @@ main {
             background-color: $col-3;
             box-shadow: 1px 1px 12px 8px #DCE4E7;
             padding: calc(100% / 20);
+            overflow: hidden;
 
             .titulos-3 {
                 display: flex;
@@ -240,6 +241,7 @@ main {
             box-shadow: 1px 1px 5px 1px #8C9399,
                         0px 0px 0px 1px #30373D inset;
             padding: calc(100% / 40);
+            overflow: hidden;
 
             .titulos-4 {
                 display: flex;
@@ -299,6 +301,7 @@ main {
             background-color: $col-3;
             box-shadow: 1px 1px 15px 8px #DCE4E7;
             padding: calc(100% / 15);
+            overflow: hidden;
 
             .titulos-5 {
                 display: flex;
