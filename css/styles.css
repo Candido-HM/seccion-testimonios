@@ -366,5 +366,19 @@ footer {
     text-align: center;
   }
 }
+@media (max-width: 640px) {
+  main {
+    height: 100%;
+    overflow-y: scroll;
+  }
+  main .contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 16% 15% 20% 23%;
+  }
+  main .contenedor .testimony-5 .titulos-5 {
+    height: 20%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
