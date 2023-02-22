@@ -41,6 +41,7 @@ main .contenedor .testimony-1 {
   box-shadow: 1px 1px 2px #8464C5, 0px 0px 0px 1px #6E40BC inset;
   padding: 2.5%;
   overflow: hidden;
+  transition: all 500ms;
 }
 main .contenedor .testimony-1 .titulos-1 {
   display: flex;
@@ -85,6 +86,9 @@ main .contenedor .testimony-1 .parrafos-1 .text-2 {
   color: #a881e6;
   font-family: BarlowRegular;
 }
+main .contenedor .testimony-1:hover {
+  box-shadow: 1px 1px 1px 5px #ae90e9;
+}
 main .contenedor .testimony-2 {
   grid-area: test2;
   border: 1px solid #404C5C;
@@ -93,6 +97,7 @@ main .contenedor .testimony-2 {
   box-shadow: 1px 1px 1px 2px #CAD4E0, 0px 0px 0px 1px #4D596F inset;
   padding: 5%;
   overflow: hidden;
+  transition: all 500ms;
 }
 main .contenedor .testimony-2 .titulos-2 {
   display: flex;
@@ -137,6 +142,9 @@ main .contenedor .testimony-2 .parrafos-2 .text2-2 {
   color: #9BA7B7;
   font-family: BarlowRegular;
 }
+main .contenedor .testimony-2:hover {
+  box-shadow: 1px 1px 1px 5px #687388;
+}
 main .contenedor .testimony-3 {
   grid-area: test3;
   border: 1px solid #E6EBEE;
@@ -145,6 +153,7 @@ main .contenedor .testimony-3 {
   box-shadow: 1px 1px 12px 8px #DCE4E7;
   padding: 5%;
   overflow: hidden;
+  transition: all 500ms;
 }
 main .contenedor .testimony-3 .titulos-3 {
   display: flex;
@@ -189,6 +198,9 @@ main .contenedor .testimony-3 .parrafos-3 .text3-2 {
   color: #ADB0B1;
   font-family: BarlowRegular;
 }
+main .contenedor .testimony-3:hover {
+  box-shadow: 1px 1px 1px 5px #9aa8ad;
+}
 main .contenedor .testimony-4 {
   grid-area: test4;
   border: 1px solid #00040A;
@@ -197,6 +209,7 @@ main .contenedor .testimony-4 {
   box-shadow: 1px 1px 5px 1px #8C9399, 0px 0px 0px 1px #30373D inset;
   padding: 2.5%;
   overflow: hidden;
+  transition: all 500ms;
 }
 main .contenedor .testimony-4 .titulos-4 {
   display: flex;
@@ -241,6 +254,9 @@ main .contenedor .testimony-4 .parrafos-4 .text4-2 {
   color: #939AA4;
   font-family: BarlowRegular;
 }
+main .contenedor .testimony-4:hover {
+  box-shadow: 1px 1px 1px 5px #6e767c;
+}
 main .contenedor .testimony-5 {
   grid-area: test5;
   border: 1px solid #E6EBEE;
@@ -249,6 +265,7 @@ main .contenedor .testimony-5 {
   box-shadow: 1px 1px 15px 8px #DCE4E7;
   padding: 6.6666666667%;
   overflow: hidden;
+  transition: all 500ms;
 }
 main .contenedor .testimony-5 .titulos-5 {
   display: flex;
@@ -292,6 +309,62 @@ main .contenedor .testimony-5 .parrafos-5 .text5-2 {
   font-size: 14px;
   color: #898E92;
   font-family: BarlowRegular;
+}
+main .contenedor .testimony-5:hover {
+  box-shadow: 1px 1px 1px 5px #99a4a8;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 810px) {
+  main {
+    height: 100%;
+    overflow-y: scroll;
+  }
+  main .contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 18% 15% 20% 25%;
+    grid-template-areas: "test1" "test2" "test3" "test4" "test5";
+    margin-top: 15px;
+  }
+  main .contenedor .testimony-1 {
+    height: 250px;
+  }
+  main .contenedor .testimony-2 .titulos-2 {
+    height: 33.3333333333%;
+  }
+  main .contenedor .testimony-2 .titulos-2 img {
+    display: block;
+    float: left;
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #424C5E;
+  }
+  main .contenedor .testimony-3 .titulos-3 {
+    height: 33.3333333333%;
+  }
+  main .contenedor .testimony-3 .titulos-3 img {
+    width: 10%;
+  }
+  main .contenedor .testimony-4 .titulos-4 {
+    height: 33.3333333333%;
+  }
+  main .contenedor .testimony-4 .titulos-4 img {
+    width: 10%;
+  }
+  main .contenedor .testimony-5 .titulos-5 {
+    height: 33.3333333333%;
+  }
+  main .contenedor .testimony-5 .titulos-5 img {
+    width: 10%;
+  }
+  footer {
+    margin-top: 15px;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
