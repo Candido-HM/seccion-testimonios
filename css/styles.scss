@@ -473,3 +473,32 @@ footer {
         }
     }
 }
+
+@media (max-width: 555px){
+    main {
+
+        .contenedor{
+            grid-template-rows: 330px 215px 220px 310px 360px;
+
+            .testimony-1 {
+                height: auto;
+            }
+
+            .testimony-2 {
+                height: auto;
+            }
+
+            .testimony-3 {
+                height: auto;
+            }
+
+            .testimony-4 {
+                height: auto;
+            }
+
+            .testimony-5 {
+                height: auto;
+            }
+        }
+    }
+}
