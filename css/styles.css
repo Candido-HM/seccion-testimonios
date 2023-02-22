@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "BarlowRegular";
+  src: url("/fonts/Barlow/BarlowSemiCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: "BarlowSemiBold";
+  src: url("/fonts/Barlow/BarlowSemiCondensed-SemiBold.ttf");
+}
+body {
+  background-color: #EDF2F8;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  width: 830px;
+  width: 76.9230769231%;
+  height: 430px;
+  height: 76.9230769231%;
+  background-color: transparent;
+  grid-template-areas: "test1 test1 test2 test5" "test3 test4 test4 test5";
+  gap: 16px;
+}
+main .contenedor .testimony-1 {
+  grid-area: test1;
+  background: url(/images/bg-pattern-quotation.svg) no-repeat center top; /*Se posiciona la imagen*/
+  background-size: 20% 33.3333333333%;
+  border: 1px solid #603F9A;
+  border-radius: 14px;
+  background-color: #733FC8;
+  box-shadow: 1px 1px 2px #8464C5, 0px 0px 0px 1px #6E40BC inset;
+  padding: 2.5%;
+  /*display: flex;
+  flex-direction: column;*/
+}
+main .contenedor .testimony-1 .titulos-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  padding-left: 5px;
+  display: block;
+}
+main .contenedor .testimony-1 .titulos-1 img {
+  display: block;
+  float: left;
+  width: 9.0909090909%;
+  border-radius: 100%;
+  border: 1px solid #9570C8;
+}
+main .contenedor .testimony-1 .titulos-1 h1 {
+  margin: 2px;
+  font-size: 12px;
+  color: #ccaddb;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-1 .titulos-1 h2 {
+  margin: 0px;
+  font-size: 12px;
+  color: #a479eb;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-1 .parrafos-1 {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+main .contenedor .testimony-1 .parrafos-1 .text-1 {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-1 .parrafos-1 .text-2 {
+  font-size: 14px;
+  color: #a881e6;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-2 {
+  grid-area: test2;
+  border: 1px solid #404C5C;
+  border-radius: 14px;
+  background-color: #49556B;
+  box-shadow: 1px 1px 1px 2px #CAD4E0, 0px 0px 0px 1px #4D596F inset;
+  padding: 5%;
+}
+main .contenedor .testimony-2 .titulos-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  padding-left: 5px;
+  display: block;
+}
+main .contenedor .testimony-2 .titulos-2 img {
+  display: block;
+  float: left;
+  width: 16.6666666667%;
+  border-radius: 100%;
+  border: 1px solid #424C5E;
+}
+main .contenedor .testimony-2 .titulos-2 h1 {
+  margin: 2px;
+  font-size: 12px;
+  color: #C9D5DD;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-2 .titulos-2 h2 {
+  margin: 0px;
+  font-size: 12px;
+  color: #8E99AB;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-2 .parrafos-2 {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+main .contenedor .testimony-2 .parrafos-2 .text2-1 {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-2 .parrafos-2 .text2-2 {
+  font-size: 14px;
+  color: #9BA7B7;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-3 {
+  grid-area: test3;
+  border: 1px solid #E6EBEE;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 12px 8px #DCE4E7;
+  padding: 5%;
+}
+main .contenedor .testimony-3 .titulos-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  padding-left: 5px;
+  display: block;
+}
+main .contenedor .testimony-3 .titulos-3 img {
+  display: block;
+  float: left;
+  width: 16.6666666667%;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+main .contenedor .testimony-3 .titulos-3 h1 {
+  margin: 2px;
+  font-size: 12px;
+  color: #889094;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-3 .titulos-3 h2 {
+  margin: 0px;
+  font-size: 12px;
+  color: #CFD1D0;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-3 .parrafos-3 {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+main .contenedor .testimony-3 .parrafos-3 .text3-1 {
+  display: block;
+  font-size: 14px;
+  color: #4C555F;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-3 .parrafos-3 .text3-2 {
+  font-size: 14px;
+  color: #ADB0B1;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-4 {
+  grid-area: test4;
+  border: 1px solid #00040A;
+  border-radius: 14px;
+  background-color: #18202D;
+  box-shadow: 1px 1px 5px 1px #8C9399, 0px 0px 0px 1px #30373D inset;
+  padding: 2.5%;
+}
+main .contenedor .testimony-4 .titulos-4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  padding-left: 5px;
+  display: block;
+}
+main .contenedor .testimony-4 .titulos-4 img {
+  display: block;
+  float: left;
+  width: 9.0909090909%;
+  border-radius: 100%;
+  border: 1px solid #6B4872;
+}
+main .contenedor .testimony-4 .titulos-4 h1 {
+  margin: 2px;
+  font-size: 12px;
+  color: #D0D6DA;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-4 .titulos-4 h2 {
+  margin: 0px;
+  font-size: 12px;
+  color: #5B616D;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-4 .parrafos-4 {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+main .contenedor .testimony-4 .parrafos-4 .text4-1 {
+  display: block;
+  font-size: 14px;
+  color: #F5FCFF;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-4 .parrafos-4 .text4-2 {
+  font-size: 14px;
+  color: #939AA4;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-5 {
+  grid-area: test5;
+  border: 1px solid #E6EBEE;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 15px 8px #DCE4E7;
+  padding: 6.6666666667%;
+}
+main .contenedor .testimony-5 .titulos-5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 7.6923076923%;
+  padding-left: 5px;
+  display: block;
+}
+main .contenedor .testimony-5 .titulos-5 img {
+  display: block;
+  float: left;
+  width: 16.6666666667%;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+main .contenedor .testimony-5 .titulos-5 h1 {
+  margin: 2px;
+  font-size: 12px;
+  color: #767A84;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-5 .titulos-5 h2 {
+  margin: 0px;
+  font-size: 12px;
+  color: #C7C7C8;
+  font-family: BarlowRegular;
+}
+main .contenedor .testimony-5 .parrafos-5 {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+main .contenedor .testimony-5 .parrafos-5 .text5-1 {
+  display: block;
+  font-size: 14px;
+  color: #414754;
+  font-family: BarlowSemiBold;
+}
+main .contenedor .testimony-5 .parrafos-5 .text5-2 {
+  font-size: 14px;
+  color: #898E92;
+  font-family: BarlowRegular;
+}
+
+/*# sourceMappingURL=styles.css.map */
