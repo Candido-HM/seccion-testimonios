@@ -435,5 +435,40 @@ footer {
     height: 14%;
   }
 }
+@media (max-width: 375px) {
+  main .contenedor {
+    grid-template-rows: 350px 215px 190px 325px 450px;
+  }
+  main .contenedor .testimony-1 {
+    height: auto;
+  }
+  main .contenedor .testimony-1 .titulos-1 {
+    height: 12%;
+  }
+  main .contenedor .testimony-2 {
+    height: auto;
+  }
+  main .contenedor .testimony-2 .titulos-2 {
+    height: 15%;
+  }
+  main .contenedor .testimony-3 {
+    height: auto;
+  }
+  main .contenedor .testimony-3 .titulos-3 {
+    height: 13%;
+  }
+  main .contenedor .testimony-4 {
+    height: auto;
+  }
+  main .contenedor .testimony-4 .titulos-4 {
+    height: 15%;
+  }
+  main .contenedor .testimony-5 {
+    height: auto;
+  }
+  main .contenedor .testimony-5 .titulos-5 {
+    height: 10%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
